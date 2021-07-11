@@ -1,0 +1,99 @@
+﻿.about-us h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #3c389f;
+    font-weight: 500;
+}
+.banner-about-img {
+    padding-top: 5%;
+    max-width: 60%;
+}
+.mission {
+    padding-top: 13px;
+}
+.mission-headline{
+    padding-bottom:18px;
+}
+    .mission-headline h2 {
+        font-size: 35px;
+        text-transform: uppercase;
+        color: #3c389f;
+        font-weight: 500;
+    }
+
+.strength-img img {
+    width:100%;
+}
+.strength-title h4 {
+    color: #3c389f;
+    font-weight: 500;
+}
+.about-us-headline {
+    padding-bottom: 26px;
+}
+ .about-us-headline h3 {
+        font-size: 35px;
+        text-transform: uppercase;
+        color: #3c389f;
+        font-weight: 500;
+    }
+.sub-strength {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.strength-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.normal-zoom {
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.zoom-in {
+    transform: scale(1.05);
+    transition: transform 250ms;
+}
+@media(max-width:1199px){
+    .banner-about-img {
+        padding-top: 10%;
+        max-width: 60%;
+    }
+}
+@media(max-width:1073px) {
+
+}
+@media(max-width:991px) {
+    .banner-about-img {
+        padding-top: 15%;
+        max-width: 80%;
+    }
+}
+@media(max-width:767px) {
+    .banner-about-img {
+        padding-top: 3%;
+        max-width: 52%
+    }
+}
+@media(max-width:575px) {
+    .banner-about-img {
+        padding-top: 0%;
+        padding-bottom: 2%;
+        max-width: 56%;
+    }
+    .about-us h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .mission-headline h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+}

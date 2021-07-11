@@ -1,0 +1,390 @@
+﻿.pickup-img {
+    max-width: 98%;
+}
+.warehouse-img {
+    max-width: 100%;
+    padding-top: 13%;
+}
+.food-img {
+    max-width: 104%;
+}
+.contact {
+    padding: 90px 0;
+}
+.banner-after-sec {
+    padding: 90px 0;
+}
+.banner {
+    height:415px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(255 255 255 / .20),rgb(243 243 243 / .70)),url(../images/about/sky.jpg);
+    background-position: center;
+}
+.banner-img {
+    padding-top: 5%;
+    max-width: 52%;
+}
+.banner-online-service-img {
+    padding-top: 9%;
+    max-width: 100%
+}
+
+.service-img {
+    max-width: 71%;
+    padding-top: 10%;
+}
+.tracking-img {
+    max-width: 100%;
+    padding-top: 15%;
+}
+.packaging-img {
+    max-width: 91%;
+    padding-top: 10%;
+}
+.ondemand-img {
+    padding-top: 6%;
+}
+.fullfillment-img {
+    max-width: 92%;
+    margin-top: 5%;
+}
+.banner-row {
+    align-items: baseline;
+}
+.promo-title h2{
+    font-size: 70px;
+    color: #3c389f;
+    font-weight: 600;
+    text-align: center;
+}
+.promo-details {
+    font-size: 18px;
+}
+.normal-zoom {
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.zoom-in {
+    transform: scale(1.05);
+    transition: transform 250ms;
+}
+
+.service-member{
+    padding: 100px 0 100px;
+}
+    .reg_header {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.reg {
+    margin: 13px auto;
+    text-align: center;
+}
+
+.reg-input > .button {
+    outline: 0;
+    background: none;
+    background-color: #3c389f;
+    float: left;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font-size: 15px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 4px;
+}
+.reg-input > .button:hover {
+    background-color: #3c389fbf;
+}
+
+.reg-input{
+    display: flex;
+    justify-content: center;
+}
+/*FAQ Start*/
+
+.faq-section {
+   
+    background-color: #ececec;
+    padding: 100px 0 100px;
+}
+.centerplease {
+    color: #48389f;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.tab-label {
+    font-size: 18px;
+    font-weight:600;
+    color: #3c389f;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+   /* .tab-label::after {
+        content: "❯";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all 0.35s;
+        transform: rotate(90deg);
+    }
+
+    .tab-label::after(2) {
+        transform: rotate(90deg);
+    }*/
+
+.rightIconStyle {
+    transform: rotate(90deg);
+}
+.downIconStyle {
+    transform: rotate(-90deg);
+}
+/*.button-custom {
+    color: #3c389f;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+    .button-custom:hover {
+        background-color: #3c389f;
+        color: #ffffff;
+    }
+
+    .button-custom:active,
+    .button-custom:focus {
+        background-color: #3c389f;
+        color: #ffffff;
+    }
+*/
+/*.content {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}*/
+/*Question*/
+/*.question {
+    position: relative;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 10px 10px 10px 50px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}*/
+/*Answer*/
+/*.answers {
+    padding: 0px 15px;
+    margin: 5px 0;
+    width: 100% !important;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.questions:checked ~ .answers {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+}*/
+/*FAQ Toggle*/
+/*.plus {
+    position: absolute;
+    margin-left: 10px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.questions {
+    display: none;
+}*/
+/*FAQ End*/
+@media (max-width:1199px) {
+    .pickup-img {
+        padding-top:40px;
+    }
+    .food-img {
+        padding-top: 45px;
+        max-width: 104%;
+    }
+    .packaging-img {
+        max-width: 96%;
+        padding-top: 15%;
+    }
+    .fullfillment-img {
+        max-width: 92%;
+        margin-top: 10%;
+    }
+}
+@media (max-width:1073px) {
+
+}
+@media (max-width:991px) {
+    .promo-title h2 {
+        font-size: 65px;
+    }
+    .pickup-img {
+        max-width: 130%;
+        padding-top: 40px;
+    }
+    .banner-online-service-img {
+        padding-top: 15%;
+        max-width: 100%;
+    }
+    .warehouse-img {
+        max-width: 108%;
+        padding-top: 21%;
+    }
+    .food-img {
+        max-width: 110%;
+        padding-top: 60px;
+    }
+    .packaging-img {
+        max-width: 110%;
+        padding-top: 16%;
+    }
+    .ondemand-img {
+        max-width: 100%;
+        padding-top: 14%;
+    }
+    .fullfillment-img {
+        max-width: 108%;
+        margin-top: 15%;
+    }
+    .tracking-img {
+        max-width: 100%;
+        padding-top: 23%;
+    }
+}
+@media (max-width:767px) {
+    .promo-title h2 {
+        font-size: 60px;
+    }
+    .pickup-img {
+        display: flex;
+        margin: -40px auto 0 auto;
+        padding-top: -10px !important;
+        max-width: 90%;
+    }
+    .banner-online-service-img {
+        padding-top: 3%;
+        max-width: 70%;
+    }
+    .warehouse-img {
+        max-width: 92%;
+        padding-top: 8%;
+    }
+    .food-img {
+        max-width: 95%;
+        padding-top: 0px;
+    }
+    .packaging-img {
+        max-width: 90%;
+        padding-top: 2%;
+    }
+    .ondemand-img {
+        max-width: 60%;
+        padding-top: 0%;
+    }
+    .fullfillment-img {
+        max-width: 88%;
+        margin-top: 0%;
+    }
+    .tracking-img {
+        max-width: 96%;
+        padding-top: 4%;
+    }
+}
+@media (max-width:575px){
+    .banner-online-service-img {
+        padding-top: 0;
+        padding-bottom: 20px;
+        max-width: 60%;
+    }
+    .promo-title h2 {
+        font-size: 51px;
+    }
+    .banner{
+        height:auto;
+    }
+    .banner-after-sec {
+        padding: 43px 0;
+    }
+    .tracking-img {
+        padding-top: 0;
+        padding-bottom:4%;
+        max-width: 85%;
+    }
+    .packaging-img {
+        padding-top: 0;
+    }
+    .ondemand-img {
+        max-width: 76%;
+    }
+    .fullfillment-img {
+        margin-top: 0;
+        max-width: 89%;
+    }
+    .warehouse-img {
+        max-width: 80%;
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+    .food-img {
+        max-width: 75%;
+        padding-top: 0px;
+    }
+    .packaging-img {
+        padding-top: 0;
+        max-width: 70%;
+        padding-bottom: 4%;
+    }
+    .ondemand-img {
+        max-width: 60%;
+        padding-bottom: 4%;
+    }
+    .fullfillment-img {
+        margin-top: 0;
+        margin-bottom: 4%;
+        max-width: 70%;
+    }
+}

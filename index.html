@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link href="./css/home-responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--header start-->
+    <section>
+      <header class="nav-bar">
+        <nav id="topNav" class="navbar-expand-lg navbar-light navbar-top-back">
+          <div class="container-fluid">
+            <div class="navbar navbar-top">
+              <div class="header-info-group">
+                <div class="header-info-icon phone">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="header-info-leveled">
+                  <h5>
+                    <a href="tel:+8809678128128" class="text-white"
+                      >Call Us (+88) 096-78-128-128</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="header-info-group">
+                <div class="header-info-icon">
+                  <i class="far fa-envelope"></i>
+                </div>
+                <div class="header-info-leveled">
+                  <h5>
+                    <a href="mailto:info@atc.co.bd" class="text-white"
+                      >info@atc.co.bd</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <button
+                class="navbar-toggler nav-mob-color"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTopSupportedContent"
+                aria-controls="navbarTopSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse nav-mob-collapse"
+                id="navbarTopSupportedContent"
+              >
+                <ul class="navbar-nav ml-auto">
+                  <li></li>
+                  <li>
+                    <div class="header-info-group">
+                      <div class="header-info-icon">
+                        <i class="fa fa-users"></i>
+                      </div>
+                      <div class="header-info-leveled">
+                        <h5>
+                          <a href="#" class="text-white">Member Area</a>
+                        </h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header-info-group">
+                      <div class="header-info-icon">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="header-info-leveled">
+                        <h5>
+                          <a href="#" class="text-white">Become Merchant</a>
+                        </h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      id="languageLi"
+                      class="lang-mobile dropdown nav-item nav-lang"
+                      style="border-bottom: 0; border-top: 0"
+                    >
+                      <a
+                        href="#"
+                        class="dropdown-toggle lih 4nk nav-link lang"
+                        data-toggle="dropdown"
+                        style="
+                          padding: 0px 15px !important;
+                          color: #fff !important;
+                          border-left: 0;
+                          border-bottom: 0;
+                          line-height: 0;
+                        "
+                      >
+                        <i class="fas fa-globe" style="margin-right: 3px"></i>EN
+                      </a>
+                      <div class="lang-dropdown-mob dropdown-menu sub-menu-div">
+                        <ul class="navbar-nav sub-menu-ul">
+                          <li
+                            id="englishLi"
+                            class="nav-item"
+                            style="border-bottom: 1px solid #c1c1c1"
+                          >
+                            <a class="nav-link sub-menu-a mob-item" href="#"
+                              >English</a
+                            >
+                          </li>
+                          <li id="japaneseLi" class="nav-item">
+                            <a class="nav-link sub-menu-a mob-item" href="#"
+                              >Japanese</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav
+          id="navBeforeScroll"
+          class="
+            navbar-expand-lg navbar-dark
+            sticky-top
+            navbar-custom
+            nav-border-top
+            p-0
+          "
+          style="
+            background-color: #fff;
+            border-bottom: 1px solid #eaeaef;
+            border-top: 1px solid #eaeaef;
+          "
+        >
+          <div class="container-fluid nav-bar-before-scroll">
+            <div id="navBeforeScrollLogo" class="nav-logo">
+              <img
+                class="nav-top-logo"
+                src="./images/main/logo.png"
+                alt="logo"
+              />
+              <p style="margin-bottom: 0; line-height: 1">
+                <span class="japax">Japax</span>
+              </p>
+            </div>
+            <div
+              id="navAfterScrollLogo"
+              class="nav-logo"
+              style="left: 8vw; display: none"
+            >
+              <img
+                src="./images/main/logo.png"
+                alt="logo"
+                style="height: 50px"
+              />
+            </div>
+            <button
+              class="navbar-toggler navbar-toggler-bottom toggler-ipad"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContentMiddle"
+              aria-controls="navbarSupportedContentMiddle"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div id="menuu">
+                <div id="pencett">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </button>
+            <div
+              class="collapse navbar-collapse collapse-tab"
+              id="navbarSupportedContentMiddle"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a id="indexLi" class="nav-link" href="/">Home</a>
+                </li>
+                <li id="about" class="nav-item">
+                  <a id="aboutLi" class="nav-link" href="/home/about"
+                    >About Us</a
+                  >
+                </li>
+                <li class="dropdown nav-item" id="serviceDropdown">
+                  <a
+                    id="serviceLi"
+                    href="#"
+                    class="dropdown-toggle link nav-link"
+                    data-toggle="dropdown"
+                  >
+                    Services
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-custom sub-menu-div-service"
+                  >
+                    <div class="row custom-row">
+                      <div class="col-md-7 pr-0">
+                        <ul class="nav sub-menu-ul-service service-2">
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="pickupLi"
+                              class="sub-menu-li-a"
+                              href="/home/pickup-drop"
+                              ><img
+                                src="./images/main/service-section/pick drop.png"
+                              />Pickup &amp; Drop</a
+                            >
+                          </li>
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="onlineLi"
+                              class="sub-menu-li-a"
+                              href="/home/online-service"
+                              ><img
+                                src="./images/main/service-section/customer-service (4).png"
+                              />Online Service</a
+                            >
+                          </li>
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="warehouseLi"
+                              class="sub-menu-li-a"
+                              href="/home/warehouse"
+                              ><img
+                                src="./images/main/service-section/warehouse.png"
+                              />Warehouse</a
+                            >
+                          </li>
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="foodLi"
+                              class="sub-menu-li-a"
+                              href="/home/food-delivery"
+                              ><img
+                                src="./images/main/service-section/food-delivery (1).png"
+                              />Food Delivery</a
+                            >
+                          </li>
+                        </ul>
+                        <!-- @*this was for 3 rechange menu
+                          <ul class="nav sub-menu-ul-service service-2">
+                            <li class="sub-menu-li courierImg p-20">
+                              <a
+                                id="courierLi"
+                                class="sub-menu-li-a"
+                                href="/home"
+                                ><img
+                                  src="../images/main/icon/fullfillment.png"
+                                />Courier</a
+                              >
+                            </li>
+                            <li class="sub-menu-li p-20 foodImg borderright">
+                              <a
+                                id="foodLi"
+                                href="/home/coming-soon?value=6"
+                              ></a>
+                            </li>
+                            <li
+                              class="sub-menu-li p-20 rideshareImg borderrightt"
+                            >
+                              <a
+                                id="ride-shareLi"
+                                class="sub-menu-li-a"
+                                href="/home/coming-soon?value=7"
+                              ></a>
+                            </li>
+                            <li class="sub-menu-li p-20">
+                              <a
+                                id="foodLi"
+                                class="sub-menu-li-a"
+                                href="/home/food-delivery"
+                                ><img src="~/images/main/icon/food.png" />Food
+                                Delivery</a
+                              >
+                            </li>
+                          </ul>
+                          *@ -->
+                        <ul class="nav sub-menu-ul-service">
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="realtimeLi"
+                              class="sub-menu-li-a"
+                              href="/home/realtime-tracking"
+                              ><img
+                                src="./images/main/service-section/order-tracking.png"
+                              />Real-time Tracking</a
+                            >
+                          </li>
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="packagingLi"
+                              class="sub-menu-li-a"
+                              href="/home/packaging-service"
+                              ><img
+                                src="./images/main/service-section/box.png"
+                              />Packaging Service</a
+                            >
+                          </li>
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="ondemandLi"
+                              class="sub-menu-li-a"
+                              href="/home/ondemand-service"
+                              ><img
+                                src="./images/main/service-section/on demand.png"
+                              />On-demand Service</a
+                            >
+                          </li>
+                          <li class="sub-menu-li p-20">
+                            <a
+                              id="fulfillmentLi"
+                              class="sub-menu-li-a"
+                              href="/home/fulfillment-service"
+                              ><img
+                                src="./images/main/service-section/fulfilment(2).png"
+                              />Fulfillment Service</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="featured-service feature feature-color">
+                          <div class="another-services"></div>
+                          <ul
+                            class="
+                              nav
+                              sub-menu-ul-service
+                              service-1
+                              feature-service-tab
+                            "
+                          >
+                            <li class="sub-menu-li p-20">
+                              <a href="/home/coming-soon?value=0"
+                                ><img
+                                  src="./images/main/feautred-service/api.png"
+                                />REST API</a
+                              >
+                            </li>
+                            <li class="sub-menu-li p-20">
+                              <a href="/home/coming-soon?value=3"
+                                ><img
+                                  src="./images/main/feautred-service/prestashop.png"
+                                />Prestashop</a
+                              >
+                            </li>
+
+                            <li class="sub-menu-li p-20">
+                              <a href="/home/coming-soon?value=2"
+                                ><img
+                                  src="./images/main/feautred-service/magento.png"
+                                />Magento</a
+                              >
+                            </li>
+                          </ul>
+                          <ul class="nav sub-menu-ul-service service-1">
+                            <li class="sub-menu-li p-20">
+                              <a href="/home/coming-soon?value=1"
+                                ><img
+                                  src="./images/main/feautred-service/woo-commerce.png"
+                                />Woo-Commerce</a
+                              >
+                            </li>
+                            <li class="sub-menu-li p-20">
+                              <a href="/home/coming-soon?value=4"
+                                ><img
+                                  src="./images/main/feautred-service/shopify-removebg-preview.png"
+                                />Shopify</a
+                              >
+                            </li>
+                            <li class="sub-menu-li p-20">
+                              <a href="/home/coming-soon?value=5"
+                                ><img
+                                  src="./images/main/feautred-service/bullhorn.png"
+                                />F-Commerce</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="price" class="nav-item">
+                  <a id="priceLi" class="nav-link" href="/home/pricing-final"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a id="mapLi" class="nav-link" href="/home/map"
+                    >Coverage Map</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a id="blogLi" class="nav-link" href="/home/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a id="contactLi" class="nav-link" href="/home/contact"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item nav-track">
+                  <a id="estimateLi" class="nav-link track" href="/home/outlet"
+                    >Our Outlet</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <nav
+          id="navBeforeScrollSmallDevice"
+          class="
+            navbar-expand-lg navbar-dark
+            sticky-top
+            navbar-custom
+            nav-border-top
+            p-0
+          "
+          style="
+            background-color: #fff;
+            border-bottom: 1px solid #eaeaef;
+            border-top: 1px solid #eaeaef;
+          "
+        >
+          <div class="container-fluid nav-bar-before-scroll">
+            <div id="navBeforeScrollLogo" class="nav-logo">
+              <img
+                class="nav-top-logo"
+                src="./images/main/logo.png"
+                alt="logo"
+              />
+              <p style="margin-bottom: 0; line-height: 1">
+                <span class="japax">Japax Courier</span>
+              </p>
+            </div>
+            <div
+              id="navAfterScrollLogo"
+              class="nav-logo"
+              style="left: 8vw; display: none"
+            >
+              <img
+                src="./images/main/logo.png"
+                alt="logo"
+                style="height: 50px"
+              />
+            </div>
+            <button
+              class="navbar-toggler navbar-toggler-bottom"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContentMiddle"
+              aria-controls="navbarSupportedContentMiddle"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div id="menu">
+                <div id="pencet">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- @*<span class="navbar-toggler-icon"></span>*@ -->
+            </button>
+            <div
+              class="collapse navbar-collapse"
+              id="navbarSupportedContentMiddle"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a id="indexLi" class="nav-link" href="/home/index">Home</a>
+                </li>
+                <li id="about" class="nav-item">
+                  <a id="aboutLi" class="nav-link" href="/home/about"
+                    >About Us</a
+                  >
+                </li>
+                <li class="dropdown nav-item" id="serviceDropdown">
+                  <a
+                    id="serviceLi"
+                    href="#"
+                    class="dropdown-toggle link nav-link"
+                    data-toggle="dropdown"
+                  >
+                    Services
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-custom sub-menu-div-service"
+                  >
+                    <!-- @*it was mobile menu which designed for 2nd time menu
+                      change
+
+                      <ul class="nav sub-menu-ul-service service-2">
+                        <li class="nav-item sub-menu-li courierMobImg p-20 p-w">
+                          <a id="courierLi" class="sub-menu-li-a" href="/home"
+                            ><img
+                              src="http://localhost:52898//images/main/icon/fullfillment.png"
+                            />Courier</a
+                          >
+                        </li>
+                        <li class="nav-item sub-menu-li p-20 foodMobImg p-w">
+                          <a id="foodLi" href="/home/coming-soon?value=6"></a>
+                        </li>
+                        <li
+                          class="nav-item sub-menu-li p-20 rideshareMobImg p-w"
+                        >
+                          <a
+                            id="ride-shareLi"
+                            class="sub-menu-li-a"
+                            href="/home/coming-soon?value=7"
+                          ></a>
+                        </li>
+                        <li class="sub-menu-li p-20">
+                          <a
+                            id="foodLi"
+                            class="sub-menu-li-a"
+                            href="/home/food-delivery"
+                            ><img src="~/images/main/icon/food.png" />Food
+                            Delivery</a
+                          >
+                        </li>
+                      </ul>
+                      *@ -->
+                    <ul class="nav sub-menu-ul-service service-2">
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="pickupLi"
+                          class="sub-menu-li-a"
+                          href="/home/pickup-drop"
+                          ><img
+                            src="./images/main/service-section/order-tracking.png"
+                          />Real-time Tracking</a
+                        >
+                      </li>
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="onlineLi"
+                          class="sub-menu-li-a"
+                          href="/home/online-service"
+                          ><img
+                            src="./images/main/service-section/box.png"
+                          />Packaging Service</a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="nav sub-menu-ul-service service-2">
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="realtimeLi"
+                          class="sub-menu-li-a"
+                          href="/home/realtime-tracking"
+                          ><img
+                            src="./images/main/service-section/order-tracking.png"
+                          />Real-time Tracking</a
+                        >
+                      </li>
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="packagingLi"
+                          class="sub-menu-li-a"
+                          href="/home/packaging-service"
+                          ><img
+                            src="./images/main/service-section/box.png"
+                          />Packaging Service</a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="nav sub-menu-ul-service service-2">
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="warehouseLi"
+                          class="sub-menu-li-a"
+                          href="/home/warehouse"
+                          ><img
+                            src="./images/main/service-section/warehouse.png"
+                          />Warehouse</a
+                        >
+                      </li>
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="foodLi"
+                          class="sub-menu-li-a"
+                          href="/home/food-delivery"
+                          ><img
+                            src="./images/main/service-section/food-delivery (1).png"
+                          />Food Delivery</a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="nav sub-menu-ul-service service-2">
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="ondemandLi"
+                          class="sub-menu-li-a"
+                          href="/home/ondemand-service"
+                          ><img
+                            src="./images/main/service-section/on demand.png"
+                          />On-demand Service</a
+                        >
+                      </li>
+                      <li class="sub-menu-li p-20">
+                        <a
+                          id="fulfillmentLi"
+                          class="sub-menu-li-a"
+                          href="/home/fulfillment-service"
+                          ><img
+                            src="./images/main/service-section/fulfilment(2).png"
+                          />Fulfillment Service</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="feauture-mob-service">
+                      <div class="feature-mob"></div>
+                      <ul class="nav sub-menu-ul-service mt-23">
+                        <li class="sub-menu-li p-20">
+                          <a href="/home/coming-soon?value=0"
+                            ><img
+                              src="./images/main/feautred-service/api.png"
+                            />REST API</a
+                          >
+                        </li>
+                        <li class="sub-menu-li p-20">
+                          <a href="/home/coming-soon?value=3"
+                            ><img
+                              src="./images/main/feautred-service/prestashop.png"
+                            />Prestashop</a
+                          >
+                        </li>
+                      </ul>
+                      <ul class="nav sub-menu-ul-service">
+                        <li class="sub-menu-li p-20">
+                          <a href="/home/coming-soon?value=2"
+                            ><img
+                              src="./images/main/feautred-service/magento.png"
+                            />Magento</a
+                          >
+                        </li>
+                        <li class="sub-menu-li p-20">
+                          <a href="/home/coming-soon?value=1"
+                            ><img
+                              src="./images/main/feautred-service/woo-commerce.png"
+                            />Woo-Commerce</a
+                          >
+                        </li>
+                      </ul>
+                      <ul class="nav sub-menu-ul-service">
+                        <li class="sub-menu-li p-20">
+                          <a href="/home/coming-soon?value=4"
+                            ><img
+                              src="./images/main/feautred-service/shopify-removebg-preview.png"
+                            />Shopify</a
+                          >
+                        </li>
+                        <li class="sub-menu-li p-20">
+                          <a href="/home/coming-soon?value=5"
+                            ><img
+                              src="./images/main/feautred-service/bullhorn.png"
+                            />F-Commerce</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li id="price" class="nav-item">
+                  <a id="priceLi" class="nav-link" href="/home/pricing-final"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a id="mapLi" class="nav-link" href="/home/map"
+                    >Coverage Map</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a id="blogLi" class="nav-link" href="/home/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a id="contactLi" class="nav-link" href="/home/contact"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item nav-track">
+                  <a id="estimateLi" class="nav-link track" href="#"
+                    >Estimate Price</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <!--header end-->
+
+    <!--head start-->
+    <section id="headSec" class="hero-section">
+      <div class="row h-100">
+        <div id="headLeft" class="col-md-12 col-lg-5 banner-left-top">
+          <div class="pt-3 pt-sm-3">
+            <div class="banner-left-top-img">
+              <img
+                id="banner-top-img-0"
+                class="banner-top-img"
+                src="./images/home/animation/delivery-boy.svg"
+              />
+              <img id="banner-top-img-1" class="banner-top-img" />
+              <img id="banner-top-img-2" class="banner-top-img" />
+              <img id="banner-top-img-3" class="banner-top-img" />
+              <img
+                id="banner-top-img-4"
+                class="banner-top-img"
+                src="./images/home/animation/24-hour.svg"
+              />
+              <img id="banner-top-img-5" class="banner-top-img" />
+              <img id="banner-top-img-6" class="banner-top-img" />
+            </div>
+            <div class="text-center tab-text">
+              <span
+                class="typewriter-text"
+                data-text='[ "Dedicated Delivery Hero ", "Secure Payment ", "PickUp & Drop ", "Online Services ", "24/7 Customer Support ", "Realtime Tracking ", "Distribution Center "]'
+              ></span
+              ><br />
+            </div>
+          </div>
+          <div class="mx-auto my-4 tracking-input">
+            <input
+              type="text"
+              class="textbox"
+              placeholder="Enter Tracking ID"
+            />
+            <input title="Search" type="submit" class="button" value="Track " />
+          </div>
+        </div>
+        <div class="col-lg-7 drone-moblie">
+          <div
+            class="
+              align-items-end
+              d-flex
+              h-100
+              justify-content-center
+              w-100
+              position-relative
+            "
+          >
+            <img
+              src="./images/home/final-right-panel.svg"
+              class="w-100 banner-right-img"
+            />
+            <div class="banner-right-inside-slider">
+              <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-interval="4000">
+                    <img
+                      src="./images/home/otp.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item" data-interval="4000">
+                    <img
+                      src="./images/home/sp.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item" data-interval="4000">
+                    <img
+                      src="./images/home/settings.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--head end-->
+
+    <section class="tab-section">
+      <section class="tab__container">
+        <h2 class="section-headline text-center text-uppercase">
+          Our Services
+        </h2>
+        <div class="tab__title">
+          <button
+            class="
+              tab__button tab_button-active tab__button1 tab__button1-active
+            "
+            onclick="openTab('one')"
+          >
+            <img src="./images/home/tabbed-service/courier s.png" />Courier
+          </button>
+          <button class="tab__button tab__button2" onclick="openTab('two')">
+            <img src="./images/home/tabbed-service/food-delivery .png" /> Food
+            Delivery
+          </button>
+          <button class="tab__button tab__button3" onclick="openTab('three')">
+            <img src="./images/home/tabbed-service/ridesharing.png" /> Ride
+            Sharing
+          </button>
+        </div>
+        <!---- Start tab ---->
+        <div class="slider-tab" id="pagination">
+          <div id="one" class="tab__inside tab__inside-active">
+            <div class="tab__inside-img">
+              <img
+                id="module"
+                src="./images/services/pickup/pickup.jpg"
+                class="pickup-img"
+              />
+            </div>
+            <div class="tab__inside-text">
+              <h3 class="service-title">Courier</h3>
+              <div class="service-details">
+                Ne aliquam vulputate sadipscing mea. Ea possim explicari vel.
+                Vim ad falli tincidunt neglegentur, et quas noster nec. Iusto
+                legere omnesque mea an, per vidit equidem ea. Elitr iuvaret
+                erroribus ex vis.
+              </div>
+            </div>
+          </div>
+          <!---- End tab ---->
+          <!---- Start tab ---->
+          <div id="two" class="tab__inside">
+            <div class="tab__inside-img">
+              <img
+                id="module"
+                src="./images/services/food-delivery/food-delivery.png"
+                class="food-img"
+              />
+            </div>
+            <div class="tab__inside-text">
+              <h3 class="service-title">Food Delivery</h3>
+              <div class="service-details">
+                Ne velit labitur vim, sit natum cotidieque cu. Ei consulatu
+                consequuntur mel, sale illum salutatus vix te. Ne tollit vocibus
+                mel. Tamquam recteque maiestatis mei eu. Qui et duis detracto
+                argumentum.
+              </div>
+            </div>
+          </div>
+          <!---- End tab ---->
+          <!---- Start tab ---->
+          <div id="three" class="tab__inside">
+            <div class="tab__inside-img">
+              <img src="./images/services/ride-sharing.png" />
+            </div>
+            <div class="tab__inside-text">
+              <h3 class="service-title">Ride Sharing</h3>
+              <div class="service-details">
+                Id dicit torquatos nec. Falli erant necessitatibus ea eam, eu
+                erat viris commodo sit. Qui dicit civibus ad, nam velit graeco
+                neglegentur te, ne nemore legimus vim. No duo augue vocent.
+                Clita intellegebat ex duo, duo te tota quaeque instructior. Et
+                sit tale sint accumsan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--service start-->
+    <section id="serviceTopSec"></section>
+    <section id="serviceSec" class="section-padding">
+      <div class="container">
+        <h2 class="section-headline text-center text-uppercase">
+          Things that makes us Unique
+        </h2>
+        <div class="main-service" id="mainService">
+          <div class="row">
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img src="./images/main/service-section/pick drop.png" />
+                </div>
+                <div class="service-title">PickUp & Drop</div>
+                <div class="service-details">
+                  Flawless delivery from your doorstep to desired destination.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img
+                    src="./images/main/service-section/customer-service (4).png"
+                  />
+                </div>
+                <div class="service-title">Online Service</div>
+                <div class="service-details">
+                  Just a few clicks and leave the rest to us.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img src="./images/main/service-section/warehouse.png" />
+                </div>
+                <div class="service-title">Warehouse</div>
+                <div class="service-details">
+                  Focus on your business strategy and let us handle your storage
+                  dilemma.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img
+                    src="./images/main/service-section/food-delivery (1).png"
+                  />
+                </div>
+                <div class="service-title">Food Delivery</div>
+                <div class="service-details">
+                  Share your culinary experience with your beloved one whenever
+                  you want.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="another-service" id="anotherService">
+          <div class="row">
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img src="./images/main/service-section/order-tracking.png" />
+                </div>
+                <div class="service-title">Realtime Tracking</div>
+                <div class="service-details">
+                  Follow your parcel wherever it goes.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img src="./images/main/service-section/box.png" />
+                </div>
+                <div class="service-title">Packaging Service</div>
+                <div class="service-details">
+                  Doubting your own packaging? We will do it for you.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img src="./images/main/service-section/on demand.png" />
+                </div>
+                <div class="service-title">On Demand Delivery</div>
+                <div class="service-details">
+                  Send your product from one point to another in a flash.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 outside-box">
+              <div class="each-service">
+                <div class="service-img">
+                  <img src="./images/main/service-section/fulfilment(2).png" />
+                </div>
+                <div class="service-title">Fulfilment Service</div>
+                <div class="service-details">
+                  Work with a logistics partner that really understands your
+                  business requirements and can assist in a B2B basis.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--head end-->
+    <!--why choose us start-->
+    <section id="whyChooseSec" class="section-padding">
+      <div class="container">
+        <h2 class="section-headline text-center text-uppercase choose-headline">
+          Why Choose Us??
+        </h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="row">
+              <div class="why-choose">
+                <img src="./images/home/why-choose/home-delivery.png" />
+                <div class="choose-icon-text">
+                  <h4>Safety and Reliability</h4>
+                  <div class="choose-details">
+                    Trust our professionals regarding the security and safety of
+                    your product & info.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="why-choose">
+                <img src="./images/home/why-choose/credit-card.png" />
+                <div class="choose-icon-text">
+                  <h4>Flexible Payment</h4>
+                  <div class="choose-details">
+                    Safe and easy payment options (Cash, MFS, Debit/Credit Card,
+                    Internet Banking or Mobile Wallet).
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="why-choose">
+                <img src="./images/home/why-choose/food-delivery.png" />
+                <div class="choose-icon-text">
+                  <h4>Permanent Delivery Boy</h4>
+                  <div class="choose-details">
+                    Dedicated delivery persons are always at your service.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-md-none d-lg-block">
+            <div class="choose-img">
+              <img
+                id="whyChoseMiddleImg"
+                src="./images/home/why-choose/choose_us_2.svg"
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="row">
+              <div class="why-choose-2">
+                <img src="./images/home/why-choose/customer-service.png" />
+                <div class="choose-icon-text-2">
+                  <h4>Helpline 24/7</h4>
+                  <div class="choose-details-2">
+                    Our support team is here to satisfy all of your queries.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="why-choose-2">
+                <img src="./images/home/why-choose/order-tracking.png" />
+                <div class="choose-icon-text-2">
+                  <h4>Fragile and Liquid Item</h4>
+                  <div class="choose-details-2">
+                    Deliver your delicate and breakable items in perfect
+                    condition.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="why-choose-2">
+                <img src="./images/home/why-choose/smartphone.png" />
+                <div class="choose-icon-text-2">
+                  <h4>Mobile Application</h4>
+                  <div class="choose-details-2">
+                    An expert IT team is always on guard for a seamless
+                    experience of our user friendly mobile app.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--why choose us end-->
+    <!--testimonial start-->
+    <section id="testimonialSec" class="section-padding">
+      <h2
+        class="
+          section-headline
+          text-center text-uppercase
+          choose-headline
+          testimonial-headline
+        "
+      >
+        What Our Clients Say About Us
+      </h2>
+      <div class="testmonial-slider">
+        <div>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-12">
+              <div class="client-img m-auto">
+                <img src="./images/home/client/client-img2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 flex vcenter lg-center">
+              <div class="client-wrap is-white">
+                <p class="client-quote">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <div class="client-name">
+                  <strong class="client-name">Edwin fouzi</strong>
+                  <p class="client-position">Founder monir Chocolatier</p>
+                </div>
+                <div class="testi-icon">
+                  <img src="./images/home/client/testimonial-icon.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-12">
+              <div class="client-img m-auto">
+                <img src="./images/home/client/client-img2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 flex vcenter lg-center">
+              <div class="client-wrap is-white">
+                <p class="client-quote">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur,
+                  from a Lorem Ipsum passage, and going through the cites of the
+                  word in classical literature, discovered the undoubtable
+                  source.
+                </p>
+                <div class="client-name">
+                  <strong class="client-name"> Ayoub </strong>
+                  <p class="client-position">Founder ABC</p>
+                </div>
+                <div class="testi-icon">
+                  <img src="./images/home/client/testimonial-icon.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-12">
+              <div class="client-img m-auto">
+                <img src="./images/home/client/client-img3.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 flex vcenter lg-center">
+              <div class="client-wrap is-white">
+                <p class="client-quote">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.Richard McClintock, a Latin professor
+                  at Hampden-Sydney College in Virginia, looked up one of the
+                  more obscure Latin words, consectetur, from a Lorem Ipsum
+                  passage, and going through the cites of the word in classical
+                  literature, discovered the undoubtable source.
+                </p>
+                <div class="client-name">
+                  <strong class="client-name"> Edward Smith </strong>
+                  <p class="client-position">CEO Diove</p>
+                </div>
+                <div class="testi-icon">
+                  <img src="./images/home/client/testimonial-icon.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--floating icon start-->
+    <!--google play start-->
+    <!-- <a href="#">
+        <div class="play-icon">
+          <i class="fab fa-google-play"></i>
+        </div>
+      </a>
+      <a href="#">
+        <div class="play-icon margin-bottom">
+          <i class="fab fa-apple" style="font-size: 36px"></i>
+        </div>
+      </a> -->
+    <!--google play end-->
+    <!--chat icon start-->
+    <!-- <section class="chatbox js-chatbox"> -->
+    <!-- @*
+        <div class="chatbox__header">
+          <h3 class="chatbox__header-cta-text">
+            <span class="chatbox__header-cta-icon">
+              <i class="fas fa-comments"></i> </span
+            >Let's chat
+          </h3>
+          <button class="js-chatbox-toggle chatbox__header-cta-btn u-btn">
+            <i class="fas fa-chevron-up"></i>
+          </button>
+        </div>
+        *@ -->
+    <!-- End of .chatbox__header -->
+    <!-- <div class="js-chatbox-display chatbox__display"></div> -->
+    <!-- End of .chatbox__display -->
+    <!-- <form class="js-chatbox-form chatbox__form">
+          <input
+            type="text"
+            class="js-chatbox-input chatbox__form-input"
+            placeholder="Type your message..."
+            required
+          />
+          <button class="chatbox__form-submit u-btn">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form> -->
+    <!-- End of .chatbox__form -->
+    <!-- </section> -->
+    <!-- End of .chatbox -->
+    <!-- <a href="#" class="js-chatbox-toggle" style="display: none">
+        <div class="contact-icon">
+          <i class="fas fa-comments"></i>
+        </div>
+      </a> -->
+    <!--chat icon end-->
+    <!--floating icon end-->
+    <!--footer start-->
+    <section id="footerSec">
+      <footer>
+        <div class="new_footer_top">
+          <div class="row">
+            <div class="footer_bg">
+              <div id="motorCycle" class="footer_bg_one"></div>
+              <div class="footer_bg_two"></div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div
+                class="f_widget company_widget wow fadeInLeft"
+                data-wow-delay="0.2s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.2s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <div>
+                  <div class="banner-content">
+                    <h3 class="f-title f_600 t_color f_size_18">
+                      Please Subscribe Now
+                    </h3>
+                    <div class="m-auto tracking-input tracking-input-footer">
+                      <input
+                        type="text"
+                        class="textbox textbox-footer"
+                        placeholder="Enter Your Email"
+                      />
+                      <input
+                        title="Search"
+                        type="submit"
+                        class="button button-footer"
+                        value="Submit"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 mt-15 text-center">
+              <div
+                class="f_widget social-widget pl_70 wow fadeInLeft"
+                data-wow-delay="0.8s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.8s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <h3 class="f-title f_600 t_color f_size_18">Get Our App</h3>
+                <a href="#">
+                  <img
+                    src="./images/home/google-play.svg"
+                    class="link-social-icon"
+                    alt="Google Play"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/home/apple.svg"
+                    class="link-social-icon"
+                    alt="Apple Store"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 mt-25 text-center social-link-mobile">
+              <div
+                class="f_widget social-widget pl_70 wow fadeInLeft"
+                data-wow-delay="0.8s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.8s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <h3 class="f-title f_600 t_color f_size_18">Social Links</h3>
+                <div class="f_social_icon">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-7">
+                <p class="mb-0 f_400">
+                  ©ATC CO., LTD. 2020. All rights reserved.
+                </p>
+              </div>
+              <div class="col-lg-6 col-5 text-right">
+                <p>
+                  Powered By
+                  <a class="footer-link" href="https://www.atc.co.bd/">ATC</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/home.js"></script>
+    <script>
+      $("#serviceDropdown").on("shown.bs.dropdown", function () {
+        let x =
+          $("#navbarSupportedContentMiddle .nav-item:first-child").width() +
+          $("#navbarSupportedContentMiddle .nav-item:nth-child(2)").width();
+        let leftCss = `${x * -1}px !important`;
+        let widthCss = `${$(
+          "#navbarSupportedContentMiddle .navbar-nav"
+        ).width()}px !important`;
+        $("#dropdown_hack_style").html(
+          `#serviceDropdown .dropdown-menu {left: -242.6562px !important; width: 880.234px !important;}`
+        );
+      });
+      $(".banner-slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 4000,
+      });
+      $(".testmonial-slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        fade: true,
+        arrows: true,
+      });
+      const clickx = document.getElementById("pencet");
+
+      clickx.addEventListener("click", function () {
+        clickx.classList.toggle("Diam");
+      });
+      const clicky = document.getElementById("pencett");
+
+      clicky.addEventListener("click", function () {
+        clicky.classList.toggle("Diamm");
+      });
+    </script>
+    <script>
+      function openTab(tabNumber) {
+        var i;
+        var x = document.getElementsByClassName("tab__inside");
+
+        /*Add or Remove Active class to buttons*/
+        $(".tab__button").removeClass("tab_button-active tab__button1-active");
+        $(".tab__button").click(function () {
+          $(this).addClass("tab_button-active tab__button1-active");
+        });
+
+        /*Add active or remove class to tab contents*/
+        for (i = 0; i < x.length; i++) {
+          x[i].classList.remove("tab__inside-active");
+        }
+        document.getElementById(tabNumber).classList.add("tab__inside-active");
+      }
+    </script>
+  </body>
+</html>
